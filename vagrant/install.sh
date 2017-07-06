@@ -6,8 +6,6 @@ DBNAME=db
 DBUSER=root
 DBPASSWD=password
 
-#>> /vagrant/vm_build.log 2>&1
-
 echo -e "\nInstalling linux updates..."
 apt-get update
 echo -e "    done\n"
