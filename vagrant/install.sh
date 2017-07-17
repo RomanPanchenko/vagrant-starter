@@ -27,16 +27,8 @@ echo -e "    done\n"
 
 echo -e "\nInstalling NodeJS and NPM..."
 apt-get -y install curl
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-apt-get -y install nodejs
-echo -e "    done\n"
-
-echo -e "\nInstalling javascript components..."
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-npm install -g node-gyp@^3.6.2
-npm install -g node-sass@^4.0.0
-npm install -g webpack@^2.7.0
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+apt-get install -y nodejs
 echo -e "    done\n"
 
 echo -e "\nInstalling Git..."
