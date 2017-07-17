@@ -1,4 +1,5 @@
-# Vagrant virtual box environment with pre-installed:
+# What you'll get?
+### Vagrant virtual box environment with pre-installed:
 **1. [Linux Ubuntu 16.04 Xential Xerus.](https://app.vagrantup.com/ubuntu/boxes/xenial64)**
 
 **2. MySQL 5.7 server & client. (MySQL credentials: login:** *root*, **password:** *password* **)**
