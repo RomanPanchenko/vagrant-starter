@@ -1,7 +1,7 @@
 # Vagrant virtual box environment with pre-installed:
 **1. [Linux Ubuntu 16.04 Xential Xerus.](https://app.vagrantup.com/ubuntu/boxes/xenial64)**
 
-**2. MySQL 5.7 server & client. (MySQL credentials: login: *root*, password: *password*)**
+**2. MySQL 5.7 server & client. (MySQL credentials: login:** *root*, **password:** *password* **)**
 
 **3. NodeJS 8 & npm 5**
 
@@ -24,7 +24,7 @@ $ mkdir codebase
 ```sh
 $ cd vagrant
 ```
-**5. Create vagrant virtual box**
+**5. Create vagrant virtual box and run it**
 ```sh
 $ vagrant up linux_vm
 ```
@@ -36,5 +36,9 @@ $ vagrant ssh linux_vm
 ```sh
 $ cd /codebase
 ```
-
+### Problems
+**1. If virtual box creation has been failed due to network, or power, or some other issues, you can destroy current virtual box image and return to step 5. To destroy image please run:**
+```sh
+$ vagrant destroy linux_vm
+```
 ### That's it!
