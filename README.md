@@ -36,7 +36,7 @@ $ vagrant ssh linux_vm
 ```sh
 $ cd /codebase
 ```
-# Possible problems
+# Possible problems & solutions
 **1. If virtual box creation has been failed due to network, or power, or some other issues, you can destroy current virtual box image and return to step 5. To destroy image please run:**
 ```sh
 $ vagrant destroy linux_vm
