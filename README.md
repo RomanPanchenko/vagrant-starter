@@ -44,4 +44,13 @@ $ cd /codebase
 ```sh
 $ vagrant destroy linux_vm
 ```
+
+# Additional notes
+**1. Inner IP address of virtual box is 10.10.10.10**
+
+**2. External folder mounted inside virtual box is 'codebase'**
+
+**3. Vagrant configuration file ./vagrant-starter/vagrant/Vagrantfile. You can rename/add folder to map, change IP address or extend provision script (install.sh)**
+
+
 ### That's it!
