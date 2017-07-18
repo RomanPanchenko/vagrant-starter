@@ -8,6 +8,7 @@
 
 # Prerequisites
 **1. [VirtualBox](https://www.virtualbox.org/) has to be installed**
+**2. Vagrant has to be installed**
 # Getting started with [vagrant-starter](https://github.com/RomanPanchenko/vagrant-starter)
 **1. Clone the git repository to your local folder**
 ```sh
