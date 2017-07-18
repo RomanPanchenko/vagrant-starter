@@ -50,7 +50,7 @@ $ vagrant destroy linux_vm
 
 **2. External folder mounted inside virtual box is 'codebase'**
 
-**3. Vagrant configuration file** ./vagrant-starter/vagrant/Vagrantfile. **You can rename/add folder to map, change IP address or extend provision script (**install.sh**)**
+**3. Vagrant configuration file** ./vagrant-starter/vagrant/Vagrantfile. **You can rename/add folder to map, change IP address or extend provision script (** install.sh **)**
 
 
 ### That's it!
